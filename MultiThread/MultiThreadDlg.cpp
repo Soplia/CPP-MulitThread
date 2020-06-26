@@ -39,7 +39,7 @@ void CMultiThreadDlg::DoDataExchange(CDataExchange* pDX)
 }
 
 BEGIN_MESSAGE_MAP(CMultiThreadDlg, CDialogEx)
-	ON_WM_PAINT()
+	ON_WM_PAINT() 
 	ON_WM_QUERYDRAGICON()
 	ON_BN_CLICKED(IDCANCEL, &CMultiThreadDlg::OnBnClickedCancel)
 	ON_BN_CLICKED(IDC_START, &CMultiThreadDlg::OnBnClickedStart)
